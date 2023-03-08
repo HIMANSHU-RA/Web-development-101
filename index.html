@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./index.css">
+     <title>Registration Form</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#" id="user-form">
+        <div class="user-details">
+          <div class="input-box">
+            <label for="name"><h3 class="details">Name</h3></label>
+            <input required type="text" id="name" name="name" placeholder="Enter your Name">
+          </div>
+         
+          <div class="input-box">
+            <label for="email"><h3 class="details">Email</h3></label>
+            <input required type="email" id="email" name="email" placeholder="Enter your Email">
+          </div>
+          
+          <div class="input-box">
+            <label for="password"><h3 class="details">Password</h3></label>
+            <input required type="password" id="password" name="password" placeholder="Enter your Password">
+          </div>
+          <div class="input-box">
+            <label for="dob"><h3>Date of Birth</h3></label>
+            <input required type="date" id="dob" name="dob" placeholder="Enter your dob">
+
+          </div>
+          <div class="input-box small">
+            <input  required type="checkbox" id="acceptTerms"  name="acceptTerms">
+            <label for="acceptTerms" class="big">Accept Terms & Conditions</label>
+          </div>
+          
+        </div>
+       
+        <div class="button .btn registerbtn">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div>
+    <div>
+        <h2 style="text-align:center ;">Entries</h2>
+        <div id=user-entries></div>
+    </div>
+</div>
+<script src="./index.js"></script>
+  
+</body>
+</html>
